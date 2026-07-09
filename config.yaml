@@ -1,0 +1,3 @@
+model:
+  name: z-ai/glm-5.2
+  context_length: 65536
