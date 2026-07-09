@@ -7,7 +7,8 @@ ValueError: Model z-ai/glm-5.2 has a context window of 29,000 tokens, which is b
 
 
 ## Solution
-Run the following command to override the context length requirement:
+Run the following command to override
+
+hermes config set model.context_length 65536 
 
 
-hermes config set model.context_length 65536
